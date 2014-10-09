@@ -3,7 +3,7 @@ package de.hszg.ws14.labtask1;
 public class Main {
 
 	public static void main(String[] args) {
-		//First we create some arrays, we want to perform math operations on.
+		//First we create some fractions, we want to perform math operations on.
 		FractionCreatorGUI gui = new FractionCreatorGUI();
 		Fraction f1 = new Fraction(11,3);
 		Fraction f2 = new Fraction(7,4);
@@ -21,7 +21,7 @@ public class Main {
 		System.out.println(f3 + " - " + f4 + " = " + FractionMath.sub(f3, f4));
 		System.out.println(f5 + " * " + f6 + " = " + FractionMath.mul(f5, f6));
 		System.out.println(f7 + " / " + f8 + " = " + FractionMath.div(f7, f8));
-		//For the last equation we need to add the first two arrays first and then we can subtract the third array.
+		//For the last equation we need to add the first two fractions first and then we can subtract the third fraction.
 		//We can use another variable to save the result from the addition.
 		Fraction added = FractionMath.add(f9, f10);
 		System.out.println(f9 + " + " + f10 + " - " + f11 + " = " + FractionMath.sub(added,f11));
